@@ -30,7 +30,8 @@ sheet = client.open('leads_spreadsheet').sheet1
 
 driver_service = webdriver.chrome.service.Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=driver_service)
-driver.fullscreen_window()
+#optional setting
+#driver.fullscreen_window()
 if driver:
     driver.get('https://www.instagram.com/')
     time.sleep(random.randint(2, 4))

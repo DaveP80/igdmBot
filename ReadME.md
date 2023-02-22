@@ -19,3 +19,5 @@ to get it to run the first time. just rely on 'queryBox' selector.
 .env contains secret variables
 
 put your full path for your credentials.json in the creds variable.
+
+alter update_cell to the shape of your sheets document.
